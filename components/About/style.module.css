@@ -121,5 +121,12 @@
   .bio {
     font-size: 20px;
   }
-  
+
+  .section {
+    transform: translateY(0px);
+  }
+
+  .sectionIn {
+    animation-duration: 0s;
+  }
 }

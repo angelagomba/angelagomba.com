@@ -13,7 +13,7 @@ export default function About() {
           I am a Computer Science & Mathematics major at Northeastern University ('21). My interest in computer science began
           with messing around with the html of my tumblr blog, which lead to my interest in front-end, cross-platform, and 
           fullstack development. Aside from programming, I also love music. I play the piano, violin, guitar, and sing. 
-          I am continuing my musical adventure as a singer and guitarist in my band. In the next section you'll see in portfolios, 
+          I am continuing my musical adventure as a singer and guitarist in my band. In the next section you'll see my portfolios, 
           which display my interests in photography and writing as well.
         </span>
 

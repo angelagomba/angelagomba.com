@@ -10,6 +10,21 @@ export default function Home() {
   return (
     <body className={styles.page}>
       <Head>
+      <script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=G-3BN96H4GKH`}
+        />
+        <script
+          dangerouslySetInnerHTML={{
+          __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-3BN96H4GKH');
+          `,
+          }}
+        />
         <title>Angela Gomba</title>
         <meta name="viewport" content="initial-scale=0.5, width=device-width" />
         <link rel="icon" href="/keroppi.png" />

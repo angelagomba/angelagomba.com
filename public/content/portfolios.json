@@ -1,0 +1,32 @@
+{
+  "portfolios": [
+    {
+      "title": "Computer Science",
+      "id": "compsci",
+      "description": "A collection of coding projects I've done. Prior to college, I had no formal coding experience, which was both terrifying and exciting. Though I took a risk going into something I wasn't sure I'd be any good at, I had developed an interest and curiosity in the field during my high school years. It began with simply playing around with the html code of my Tumblr blogs, and I soon asked myself, 'What else could be made with lines of code?'. Technology has begun to permeate all aspects of our lives, as well as numerous industries. My goal is to use the skills I acquire to create or work on a tool that will help improve education. Until then, here is a working collection of what I've been able to create so far.",
+      "content": [],
+      "isComplete": false
+    },
+    {
+      "title": "Music",
+      "id": "music",
+      "description": "Music has always been a part of my life. At 4 years old I crawled to the piano and played a song I would always hear my mom sing. From there I started taking piano lessons, picked up violin in elementary school, taught myself guitar in highschool, and now I am a singer and guitarist in a band with some friends. Here is a collection of some moments from my musical journey.",
+      "content": [],
+      "isComplete": false
+    },
+    {
+      "title": "Photography",
+      "id": "photography",
+      "description": "Despite my lack in professional skill, this portfolio is my life. I think of friends and family, and I see the photos I've taken of them. I despair over heartbreak and loss, and I hold onto the past in a picture. I wonder about the strangers I've photographed, and how just mere milliseconds of a snapshot have brought life to my work. This is my life, photography to me.",
+      "content": [],
+      "isComplete": false
+    },
+    {
+      "title": "Writing",
+      "id": "writing",
+      "description": "Writing is incredibly cathartic to me. It started when I was a little girl writing in my tiny purple diary that required a key to get into. Diary entries are now song lyrics and poems, some written for those I love, as word vomit, and as characters I created. One of my bucket list items is to write a book, but not necessarily a published book. I just want to be able to sit back one day, look at my work, and say to myself, 'I just wrote a book.'",
+      "content": [],
+      "isComplete": false
+    }
+  ]
+}

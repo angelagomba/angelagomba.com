@@ -1,0 +1,19 @@
+{
+  "name": "learn-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "9.3.5",
+    "next-images": "^1.4.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-intersection-observer": "^8.28.2",
+    "react-scroll": "^1.8.1",
+    "typed.js": "^2.0.11"
+  }
+}

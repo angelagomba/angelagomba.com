@@ -9,3 +9,9 @@
 .text {
   color: #cc4444;
 }
+
+@media screen and (max-device-width: 600px) {
+  .title {
+    font-size: 35px;
+  }
+}

@@ -11,6 +11,7 @@ export default function Home() {
     <body className={styles.page}>
       <Head>
         <title>Angela Gomba</title>
+        <meta name="viewport" content="initial-scale=0.5, width=device-width" />
         <link rel="icon" href="/keroppi.png" />
       </Head>
 

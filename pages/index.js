@@ -1,7 +1,6 @@
 import About from '../components/About/index.js'
 import Head from 'next/head'
 import Header from '../components/Header/index.js'
-import Portfolios from '../components/Portfolios/index.js'
 import styles from '../styles/index.module.css'
 
 import { Link } from 'react-scroll'

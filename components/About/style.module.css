@@ -2,16 +2,47 @@
 
 .about {
   height: 100vh;
-  background-color: #cc4444;
+  background-color: #1A1A1D;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 15%;
+}
+
+.aboutContent {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.aboutText {
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Courier New', Courier, monospace;
+  color: #3500D3;
+  transition: all .2s ease-out;
+  margin: 10% 0px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+}
+
+.link {
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+  color: white;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #3500D3
 }
 
 .sectionIn {
-  align-self: center;
-  display: flex;
-  flex-direction: column;
+  width: 100%;
 
   animation-name: bounce;
   animation-timing-function: ease;
@@ -23,6 +54,7 @@
   align-self: center;
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .image {
@@ -38,47 +70,55 @@
 }
 
 .bio {
-  margin: 0px 150px 0px 0px;
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Courier New', Courier, monospace;
   font-size: 18px;
   color: white;
-}
-
-.link {
-  text-decoration: none;
+  width: 50%;
 }
 
 .button {
+  text-decoration: none;
+}
+
+.buttonOutline {
   cursor: pointer;
-  margin: 1.5rem 0;
-  border: 2px solid white;
+  border: 2px solid #3500D3;
   width: 90px;
   height: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 
-  background: linear-gradient(to right, white 50%, #cc4444 50%);
+  background: linear-gradient(to right, #3500D3 50%, #1A1A1D 50%);
   background-size: 200% 100%;
   background-position: right bottom;
   transition: all .2s ease-out;
 }
 
-.button:hover {
+.buttonOutline:hover {
   background-position: left bottom;
 }
 
 .text {
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+  color: white;
+  padding-bottom: 10px;
+}
+
+.buttonText {
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Courier New', Courier, monospace;
   text-align: center;
   font-size: 15px;
   color: white;
   transition: all .2s ease-out;
-  padding: 10px 8px;
 }
 
-.text:hover {
-  color:#cc4444;  
+.buttonText:hover {
+  color:white;  
 }
 
 @keyframes bounce {

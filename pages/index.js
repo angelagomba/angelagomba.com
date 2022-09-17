@@ -35,7 +35,7 @@ export default function Home() {
           <Header />
           <Link to="about" smooth={true} duration={1000}>
             <span className={styles.button}>
-              <h1 className={styles.text}>Learn More</h1>
+              <h1 className={styles.text}>Enter Domain</h1>
             </span>
           </Link>
         </span>
@@ -43,10 +43,6 @@ export default function Home() {
 
       <div id='about'>
         <About />
-      </div>
-
-      <div id='about'>
-        <Portfolios />
       </div>
     </body>
   )

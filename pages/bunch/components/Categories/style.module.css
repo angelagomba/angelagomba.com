@@ -1,0 +1,46 @@
+.button {
+  text-decoration: none;
+  border: 2px solid #3500D3;
+  border-radius: 25px;
+  padding: 0px 10px;
+  margin: 0px 10px 0px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.buttonSelected {
+  text-decoration: none;
+  border: 2px solid #3500D3;
+  background-color: #3500D3;
+  border-radius: 25px;
+  padding: 0px 10px;
+  margin: 0px 10px 0px;
+}
+
+.buttonSelected:hover {
+  cursor: pointer;
+}
+
+.buttonText {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-size: 12px;
+  color: #3500D3;
+  transition: all .2s ease-out;
+}
+
+.buttonTextSelected {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  transition: all .2s ease-out;
+}
+
+.categories {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}

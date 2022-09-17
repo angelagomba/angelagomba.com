@@ -6,7 +6,7 @@ export default function Header() {
 
   useEffect(() => {
     const options = {
-      strings: ['Software Engineer', 'Musician', 'Photographer', 'Writer'],
+      strings: ['Software Engineer', 'Musician', 'Filipino', 'Gamer', 'Writer', 'Collector'],
       typeSpeed: 50,
       backSpeed: 50,
       loop: true,

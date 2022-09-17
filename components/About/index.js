@@ -1,28 +1,59 @@
 import styles from './style.module.css'
 import { useInView } from 'react-intersection-observer'
 
-export default function About() {
+export default function About({children}) {
 
   const [ref, inView] = useInView({threshold: 0.1})
 
+  const title = (
+    <span className={inView ? styles.sectionIn : styles.section}>
+      <h1 className={styles.aboutText}>about</h1>
+    </span>
+  )
+
+  // TODO: Add a cute gif!
+  const animation = (
+    <>
+    { /* TODO */ }
+    </>
+  )
+
+  const links = (
+    <span className={styles.links}>
+      <a href={'/bunch'} target='_blank' className={styles.link}>blog</a>
+      <a href={'https://github.com/angelagomba'} target='_blank' className={styles.link}>github</a>
+      <a href={'https://open.spotify.com/user/angelagomba'} target='_blank' className={styles.link}>spotify</a>
+    </span>
+  )
+
+  const bio = (
+    <span className={styles.bio}>
+      I am a Software Engineer currently working at Instructure on the Outcomes Team. I graduated ('22) from 
+      Northeastern University with a BS in Computer Science & Mathematics. My interest in CS began with 
+      messing around with the html of my tumblr blog, which lead to my interest in frontend development. Aside from 
+      programming, I also love music. I play the piano, violin, guitar, and sing. I am currently learning how to
+      produce music in hopes of releasing music in the future.
+    </span>
+  )
+
+  const buttons = (
+    <span className={styles.buttons}>
+      <a className={styles.button} href={'/resume.pdf'} target='_blank'>
+        <span className={styles.buttonOutline}>
+          <h1 className={styles.buttonText}>resume</h1>
+        </span>
+      </a>
+    </span>
+  )
+
   return (
     <div className={styles.about} ref={ref} >
-      <span className={inView ? styles.sectionIn : styles.section}> <img className={styles.image} src={'/self.png'}/> </span>
+      {title}
       <span className={inView ? styles.sectionIn : styles.section}>
-        <span className={styles.bio}>
-          I am a Computer Science & Mathematics major at Northeastern University ('21). My interest in computer science began
-          with messing around with the html of my tumblr blog, which lead to my interest in front-end, cross-platform, and 
-          fullstack development. Aside from programming, I also love music. I play the piano, violin, guitar, and sing. 
-          I am continuing my musical adventure as a singer and guitarist in my band. In the next section you'll see my portfolios, 
-          which display my interests in photography and writing as well.
-        </span>
-
-        <span>
-          <a className={styles.link} href={'/resume.pdf'} target='_blank'>
-            <span className={styles.button}>
-              <h1 className={styles.text}>Resume</h1>
-            </span>
-          </a>
+        <span className={styles.aboutContent}>
+          {links}
+          {bio}
+          {buttons}
         </span>
       </span>
     </div>

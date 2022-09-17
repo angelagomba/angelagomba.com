@@ -4,10 +4,11 @@
   margin: 0;
   font-size: 50px;
   font-family: 'Montserrat', sans-serif;
+  color: #282828;
 }
 
 .text {
-  color: #cc4444;
+  color: #3500D3;
 }
 
 @media screen and (max-device-width: 600px) {

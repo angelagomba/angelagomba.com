@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 50px 0px;
+}
+
+.image {
+  object-fit: contain;
+  margin: 0px 0px 30px;
+}
+
+.imageColumn {
+  object-fit: contain;
+  margin: 0px 0px 30px 30px;
+  width: 50%;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 15%;
+}
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  margin: 10% 0px 0px;
+}
+
+.text {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  color: black;
+  margin: 0px 0px 30px;
+  text-align: justify;
+}
+
+.textColumn {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  color: black;
+  margin: 0px 0px 30px;
+  text-align: justify;
+  width: 50%;
+}
+
+.textWithImage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
